@@ -127,12 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Chief.cpp" />
+    <ClCompile Include="Cooker.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Data.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="MultiThreading.cpp" />
+    <ClCompile Include="Restaurant.cpp" />
+    <ClCompile Include="Waiter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Chief.h" />
+    <ClInclude Include="Cooker.h" />
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Datas.h" />
+    <ClInclude Include="Restaurant.h" />
     <ClInclude Include="StoreData.h" />
+    <ClInclude Include="Waiter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

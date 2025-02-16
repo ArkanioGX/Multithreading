@@ -2,6 +2,7 @@
 #include <vector>
 #include <thread>
 #include <iostream>
+#include <sstream>
 
 struct Size2D {
 	int x;
@@ -75,7 +76,10 @@ public:
 		int maxSize = fmax(a.size.x, a.size.y);
 		for (int i = 0; i < maxSize; i++) {
 			result += a.value[xPos][i] * b.value[i][yPos];
-			std::cout << std::this_thread::get_id() << " : " << a.value[xPos][i] << " * " << b.value[i][yPos] << std::endl;
+			std::stringstream ss;
+			ss << std::this_thread::get_id();
+			std::string coutString = ss.str() + " : " + std::to_string(a.value[xPos][i]) + " * " + std::to_string(b.value[i][yPos]) + "\n";
+			std::cout << coutString;
 		}
 		Value = result;
 		return result;

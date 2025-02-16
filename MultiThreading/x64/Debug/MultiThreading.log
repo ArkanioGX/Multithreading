@@ -1,14 +1,2 @@
-﻿  Matrix.cpp
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(42,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(42,22): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(75,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.cpp(6,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.cpp(7,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  MultiThreading.cpp
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(42,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(42,22): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\Matrix.h(75,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\StoreData.h(8,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\StoreData.h(22,84): error C2109: subscript requires array or pointer type
-C:\Users\mollet.clarence\Documents\GitHub\Multithreading\StoreData.h(22,72): error C2672: 'std::ref': no matching overloaded function found
-  Generating Code...
+﻿  Customer.cpp
+  MultiThreading.vcxproj -> C:\Users\clare\Documents\GitHub\Multithreading\x64\Debug\MultiThreading.exe
